@@ -62,3 +62,4 @@ export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BROWSER='"/mnt/c/Program Files/Mozilla Firefox/firefox.exe"'
 sudo /etc/init.d/postgresql start
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
