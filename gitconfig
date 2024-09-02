@@ -10,7 +10,7 @@
   remote = yellow
 
 [core]
-  pager = less -FRSX
+    pager = less -FRSX
 	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
@@ -51,4 +51,4 @@
   rebase = false
 [user]
 	email = sinouhe.monteironunes@gmail.com
-	name = sinouhemonteiro
+	name = sinouhe monteiro
