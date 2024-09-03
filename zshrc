@@ -1,4 +1,8 @@
-ZSH=$HOME/.oh-my-zsh
+nano ~/.zshrc # Rails and Ruby use the local `bin` folder to store binstubs.
+# So instead of running `bin/rails` like the doc says, just run `rails`
+# Same for `./node_modules/.bin` and nodejs
+export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+ZSH=$HOME/.oh-my-zshZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"
@@ -54,7 +58,8 @@ type -a nvm > /dev/null && load-nvmrc
 # Rails and Ruby use the local `bin` folder to store binstubs.
 # So instead of running `bin/rails` like the doc says, just run `rails`
 # Same for `./node_modules/.bin` and nodejs
-export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"ZSH=$HOME/.oh-my-zsh
+export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"
