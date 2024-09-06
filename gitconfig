@@ -10,7 +10,6 @@
   remote = yellow
 
 [core]
-    pager = less -FRSX
 	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
